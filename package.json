@@ -1,12 +1,12 @@
 {
   "name": "bento",
-  "homepage": "https://ankitapansare04.github.io/cruella",
+  "homepage": "https://ankitapansare04.github.io/bento",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
     "build:css": "postcss src/index.css -o src/tailwind.css",
     "predeploy": "npm run build",
