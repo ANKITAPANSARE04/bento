@@ -128,9 +128,14 @@ h2 {
   height: 50px;
   width: 50px;
   background: radial-gradient(#FC0100, #FC0100, #f7f7f7, #f7f7f7, #f7f7f7);
-  border-radius: 0 0 0 50%;
+  border-radius: 0 50% 0 50%;
   position: absolute;
-  right: 0;
+  right: 0;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+ 
+
+.play:hover{
+  scale: 1.2;
 }
 
 .playcurve1 {

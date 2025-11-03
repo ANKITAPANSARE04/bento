@@ -102,7 +102,8 @@ const DashboardGrid = () => {
             </div>
             <h1 className="movie-title ">CRUELLA</h1>
             <div>
-              <div className="banner1img">
+              <div className="banner1img" 
+                  onClick={playvideo}>
                 <iframe
                   id="videoFrame" // Add an ID to the iframe to target it easily
                   src="https://www.youtube.com/embed/gmRKv7n2If8?controls=0" // Added autoplay=1
@@ -114,7 +115,6 @@ const DashboardGrid = () => {
                 <img
                   src={play}
                   className="play"
-                  onClick={playvideo}
                   alt="Play Button"
                 />
 
