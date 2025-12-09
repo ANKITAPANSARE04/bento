@@ -1,5 +1,5 @@
 import React from 'react';
-import BentoGrid from './BentoBox.jsx';
+import BentoGrid from './yellowBrand.jsx';
 
 function App() {
   return (
