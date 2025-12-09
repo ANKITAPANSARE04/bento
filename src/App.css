@@ -139,6 +139,7 @@ body,
 
 /* 📱 Mobile layout (2 columns) */
 @media (max-width: 1000px) {
+  body{overflow-y: auto;}
   .responsive-grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
