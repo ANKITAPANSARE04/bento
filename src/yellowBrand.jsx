@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import gsap from "gsap"; 
-import "./yellowBrand.css";
+import "./App.css";
 
 export default function App() {
   useEffect(() => {
